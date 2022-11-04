@@ -41,7 +41,7 @@ include_directories(include)
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBRARIES})
 
 install(DIRECTORY include/
-        DESTINATION third_party/include
+        DESTINATION include
         COMPONENT main)
 
 install(TARGETS ${PROJECT_NAME}
